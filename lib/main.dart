@@ -31,6 +31,7 @@ class RandomWordsState extends State<RandomWords> {
       appBar: AppBar(
         title: Text('Startup Name Generator'),
       ),
+      //画像テスト：body: Image.asset('assets/profile.jpg'),
       body: _buildSuggestions(),
     );
   }
